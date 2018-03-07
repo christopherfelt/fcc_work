@@ -108,10 +108,10 @@
             <div class="col-6" style="width: 300px; margin-left: 10px;">
 
               <!-- <p><input id="subject" type="text" placeholder="type your subject here"
-      class="form-control"></p>
-  <p><input id="message" type="text" placeholder="type your message here"
-      class="form-control"></p>
-  <p><a id="mail-link" class="btn btn-primary">Create email</a></p> -->
+              class="form-control"></p>
+              <p><input id="message" type="text" placeholder="type your message here"
+                class="form-control"></p>
+              <p><a id="mail-link" class="btn btn-primary">Create email</a></p> -->
 
 
 
@@ -195,7 +195,7 @@
         function updateMailString() {
             mailString = '?subject=' + encodeURIComponent($('#InputEmail1').val())
                 + '&body=' + encodeURIComponent($('#FormControlTextarea1').val());
-            $('#bt1').attr('href',  'mailto:chris.h.felt@gmail.com' + mailString);
+            $('#bt1').attr('href',  'mailto:https://mail.google.com/mail/u/1/#inbox' + mailString);
         }
         $( "#InputEmail1" ).focusout(function() { updateMailString(); });
         $( "#FormControlTextarea1" ).focusout(function() { updateMailString(); });
