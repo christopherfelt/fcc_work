@@ -4,5 +4,29 @@
     width: 50px;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+body {
+  background-image: url("darkforest.jpg");
+  background-repeat: repeat-x;
+  background-position: right top;
+  background-attachment: fixed;
+
+  color: #E6DEDC;
+
+}
+
+.thing {
+  background-color: rgba(67, 70, 75, .75);
+  color: #E6DEDC;
+}
+
+.thing2 {
+  background-color: #12222F
+
+}
+
+.thing3 {
+  color: #E6DEDC;
 }
